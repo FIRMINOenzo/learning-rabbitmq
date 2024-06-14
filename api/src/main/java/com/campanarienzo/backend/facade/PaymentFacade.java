@@ -21,4 +21,15 @@ public class PaymentFacade {
     }
   }
 
+  public void paymentError(String payload) {
+    System.err.println("------\n PAYMENT ERROR:");
+    System.err.println(payload);
+    System.err.println("------");
+  }
+
+  public void paymentSuccess(String payload) {
+    System.out.println("------\n PAYMENT SUCCESS:");
+    System.out.println(payload);
+    System.out.println("------");
+  }
 }
