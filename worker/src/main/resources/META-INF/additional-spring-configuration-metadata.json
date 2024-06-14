@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "rabbitmq",
+      "type": "object",
+      "description": "RabbitMQ configuration"
+    }
+  ]
+}
