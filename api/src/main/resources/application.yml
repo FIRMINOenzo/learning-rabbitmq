@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+rabbitmq:
+  exchange:
+    payment-request: "payment-request-exchange"
+    payment-response-error: "payment-response-error-exchange"
+    payment-response-success: "payment-response-success-exchange"
+  queue:
+    payment-request: "payment-request-queue"
+    payment-response-error: "payment-response-error-queue"
+    payment-response-success: "payment-response-success-queue"
+  routing-key:
+    payment-request: "payment-request-rout-key"
+    payment-response-error: "payment-response-error-rout-key"
+    payment-response-success: "payment-response-success-rout-key"
